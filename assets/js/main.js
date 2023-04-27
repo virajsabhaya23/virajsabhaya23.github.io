@@ -68,10 +68,6 @@ tabs.forEach(tab =>{
     })
 })
 
-
-/*==================== SERVICES MODAL ====================*/
-
-
 /*==================== PORTFOLIO SWIPER  ====================*/
 let swiper = new Swiper('.portfolio__container', {
     cssMode: true,
@@ -86,10 +82,6 @@ let swiper = new Swiper('.portfolio__container', {
         clickable: true,
     },
 });
-
-
-/*==================== TESTIMONIAL ====================*/
-
 
 /*==================== SCROLL SECTIONS ACTIVE LINK ====================*/
 const sections = document.querySelectorAll('section[id]')
@@ -127,6 +119,3 @@ function scrollUp(){
     if(this.scrollY >= 560) scrollUp.classList.add('show-scroll'); else scrollUp.classList.remove('show-scroll')
 }
 window.addEventListener('scroll', scrollUp)
-
-
-/*==================== DARK LIGHT THEME ====================*/
