@@ -123,6 +123,13 @@ img {
   height: auto;
 }
 
+/* ====================== SELECTION COLOR ====================== */
+::selection {
+  background-color: var(--first-color-lighter);
+  /* background-color: var(--first-color); */
+  color: #000;
+}
+
 /*==================== REUSABLE CSS CLASSES ====================*/
 .section {
   padding: 2rem 0 4rem;
@@ -257,6 +264,19 @@ img {
 
 
 /*==================== HOME ====================*/
+/* .hero-area{
+  background : url(../img/hero_pattern.jpg);
+  color: #FFF;
+} */
+
+.home__greetings{
+  font-size: 18px;
+}
+
+strong{
+  color: var(--first-color);
+}
+
 .home__container{
   gap: 1rem;
 }
@@ -278,8 +298,7 @@ img {
   color: var(--first-color);
 }
 .home__social-icon:hover{
-  /* font-size: 1.28rem; */
-  color: var(--first-color-alt);
+  color: var(--first-color-second);
 }
 
 .home__blob{
@@ -304,6 +323,9 @@ img {
   color: var(--text-color);
   font-weight: var(--font-medium);
   margin-bottom: var(--mb-0-75);
+}
+.home__typer{
+  font-size: 1.5rem;
 }
 
 .home__description{
@@ -331,6 +353,16 @@ img {
 }
 .home__scroll-arrow{
   font-size: 1.25rem;
+}
+
+.home__view-portoflio{
+  display: inline-block;
+  color: var(--first-color);
+  font-weight: var(--font-medium);
+  margin-left: .5rem;
+}
+.home__view-portoflio:hover{
+  color: #FFF;
 }
 
 /*==================== BUTTONS ====================*/
@@ -746,7 +778,6 @@ img {
   outline: none;
   padding: .25rem .5rem .5rem 0;
 }
-
 
 /*==================== FOOTER ====================*/
 .footer{
