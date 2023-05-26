@@ -169,7 +169,7 @@ img {
   bottom: 0;
   left: 0;
   z-index: var(--z-fixed);
-  background-color: var(--body-color);
+  background-color: var(--container-color);
 }
 
 /*==================== NAV ====================*/
@@ -264,11 +264,6 @@ img {
 
 
 /*==================== HOME ====================*/
-/* .hero-area{
-  background : url(../img/hero_pattern.jpg);
-  color: #FFF;
-} */
-
 .home__greetings{
   font-size: 18px;
 }
@@ -367,10 +362,21 @@ strong{
 
 .hashnode-link{
   text-decoration: underline;
-  color: #82858F;
+  color: #ffd1b3dc;
 }
 .hashnode-link:hover{
-  color: antiquewhite;
+  color: #ffd5b3;
+}
+
+#bg{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: var(--body-color);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 100% 100%;
+  z-index: -1;
 }
 
 /*==================== BUTTONS ====================*/
