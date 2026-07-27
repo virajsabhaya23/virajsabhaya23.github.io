@@ -4,576 +4,423 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!--==================== UNICONS ====================-->
-    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
-
-    <!--===================== BOX ICONS ====================-->
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-
-    <!--==================== SWIPER CSS ====================-->
-    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
-
-    <!--==================== CSS ====================-->
+    <meta name="description"
+        content="Viraj Sabhaya is a software engineer building reliable backend systems, AI-assisted workflows, and data-rich products for healthcare, research, and startups.">
+    <meta name="color-scheme" content="dark">
     <link rel="stylesheet" href="assets/css/styles.css">
-
-    <title>Viraj Sabhaya</title>
-    <!-- add icon link -->
+    <title>Viraj Sabhaya | Software Engineer</title>
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/favicon_package_v0.16/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon_package_v0.16/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon_package_v0.16/favicon-16x16.png">
     <link rel="manifest" href="/assets/img/favicon_package_v0.16/site.webmanifest">
-    <link rel="mask-icon" href="/assets/img/favicon_package_v0.16/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
+    <link rel="mask-icon" href="/assets/img/favicon_package_v0.16/safari-pinned-tab.svg" color="#2f6c5f">
+    <meta name="msapplication-TileColor" content="#0f1717">
+    <meta name="theme-color" content="#0f1717">
 </head>
 
 <body>
-    <!--==================== HEADER ====================-->
-    <header class="header" id="header">
-        <nav class="nav container">
-            <a href="#" class="nav__logo nav__link">
-                <span>>Viraj S.</span>
-            </a>
-
-            <div class="nav__menu" id="nav-menu">
-                <ul class="nav__list grid">
-                    <li class="nav__item">
-                        <a href="#home" class="nav__link active-link">
-                            <i class="uil uil-estate nav__icon"></i>Home
-                        </a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#qualification" class="nav__link">
-                            <i class="uil uil-briefcase-alt nav__icon"></i>Qualification
-                        </a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#portfolio" class="nav__link">
-                            <i class="uil uil-code-branch nav__icon"></i>Portfolio
-                        </a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#contact" class="nav__link">
-                            <i class="uil uil-message nav__icon"></i>Contact
-                        </a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="https://virajsabhaya23.hashnode.dev/" class="nav__link">
-                            <i class="uil uil-estate nav__icon"></i>Blogs
-                        </a>
-                    </li>
-                </ul>
-                <i class="uil uil-times nav__close" id="nav-close"></i>
-            </div>
-
-            <div class="nav__btns">
-                <div class="nav__toogle" id="nav-toggle">
-                    <i class="uil uil-apps"></i>
-                </div>
-            </div>
-        </nav>
+    <header class="site-header">
+        <div class="container site-header__inner">
+            <a class="brand" href="#home">Viraj Sabhaya</a>
+            <nav class="site-nav" aria-label="Primary navigation">
+                <a href="#story">Story</a>
+                <a href="#experience">Experience</a>
+                <a href="#projects">Projects</a>
+                <a href="#education">Education</a>
+                <a href="#skills">Skills</a>
+                <a href="#recognition">Recognition</a>
+                <a href="#testimonials">Testimonials</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
     </header>
 
-    <!--==================== MAIN ====================-->
-    <main class="main">
-        <!--==================== HOME ====================-->
-        <section class="hero-area">
-            <section class="home section" id="home">
-                <div class="home__container container grid">
-                    <div class="home__content grid">
-                        <!-- SOCIALS -->
-                        <div class="home__social">
-                            <a href="https://www.linkedin.com/in/vsabhaya23/" class="home__social-icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                                    <path fill="currentColor" fill-rule="evenodd"
-                                        d="M1 2.838A1.838 1.838 0 0 1 2.838 1H21.16A1.837 1.837 0 0 1 23 2.838V21.16A1.838 1.838 0 0 1 21.161 23H2.838A1.838 1.838 0 0 1 1 21.161V2.838Zm8.708 6.55h2.979v1.496c.43-.86 1.53-1.634 3.183-1.634c3.169 0 3.92 1.713 3.92 4.856v5.822h-3.207v-5.106c0-1.79-.43-2.8-1.522-2.8c-1.515 0-2.145 1.089-2.145 2.8v5.106H9.708V9.388Zm-5.5 10.403h3.208V9.25H4.208v10.54ZM7.875 5.812a2.063 2.063 0 1 1-4.125 0a2.063 2.063 0 0 1 4.125 0Z"
-                                        clip-rule="evenodd" />
-                                </svg>
-                            </a>
-                            <a href="https://www.hackerrank.com/virajsabhaya23" class="home__social-icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 32 32">
-                                    <path fill="currentColor"
-                                        d="M16 0c1.714 0 13 6.516 13.854 8c.859 1.484.859 14.516 0 16S17.713 32 16 32c-1.714 0-13-6.516-13.859-8c-.854-1.484-.854-14.516 0-16C3 6.516 14.287 0 16 0zm3.063 9.068a.344.344 0 0 0-.349.344v5.167h-5.427v-5.37h.932a.34 0 0 0 .339-.344a.347.347 0 0 0-.161-.292l-2.099-2.01a.386.386 0 0 0-.302-.146a.35.35 0 0 0-.276.141L9.48 8.574a.343.343 0 0 0 .183.636h.938l.01 13.38c0 .193.146.344.339.344h1.99a.343.343 0 0 0 .344-.344v-5.339h5.432v5.536h-.932a.343.343 0 0 0-.183.636l2.104 2.016c.057.083.188.146.302.146s.208-.063.276-.146l2.24-2.016a.343.343 0 0 0 .161-.292a.347.347 0 0 0-.344-.344h-.938l-.01-13.375a.34.34 0 0 0-.339-.349h-1.99z" />
-                                </svg>
-                            </a>
-                            <a href="https://github.com/virajsabhaya23" class="home__social-icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                                    <g fill="none">
-                                        <g clip-path="url(#akarIconsGithubFill0)">
-                                            <path fill="currentColor" fill-rule="evenodd"
-                                                d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385c.6.105.825-.255.825-.57c0-.285-.015-1.23-.015-2.235c-3.015.555-3.795-.735-4.035-1.41c-.135-.345-.72-1.41-1.23-1.695c-.42-.225-1.02-.78-.015-.795c.945-.015 1.62.87 1.845 1.23c1.08 1.815 2.805 1.305 3.495.99c.105-.78.42-1.305.765-1.605c-2.67-.3-5.46-1.335-5.46-5.925c0-1.305.465-2.385 1.23-3.225c-.12-.3-.54-1.53.12-3.18c0 0 1.005-.315 3.3 1.23c.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23c.66 1.65.24 2.88.12 3.18c.765.84 1.23 1.905 1.23 3.225c0 4.605-2.805 5.625-5.475 5.925c.435.375.81 1.095.81 2.22c0 1.605-.015 2.895-.015 3.3c0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12Z"
-                                                clip-rule="evenodd" />
-                                        </g>
-                                        <defs>
-                                            <clipPath id="akarIconsGithubFill0">
-                                                <path fill="#fff" d="M0 0h24v24H0z" />
-                                            </clipPath>
-                                        </defs>
-                                    </g>
-                                </svg>
-                            </a>
-                            <a href="https://virajsabhaya23.hashnode.dev/" class="home__social-icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                                    <path fill="currentColor"
-                                        d="m22.351 8.019l-6.37-6.37a5.63 5.63 0 0 0-7.962 0l-6.37 6.37a5.63 5.63 0 0 0 0 7.962l6.37 6.37a5.63 5.63 0 0 0 7.962 0l6.37-6.37a5.63 5.63 0 0 0 0-7.962zM12 15.953a3.953 3.953 0 1 1 0-7.906a3.953 3.953 0 0 1 0 7.906z" />
-                                </svg>
-                            </a>
-                            <a href="https://read.cv/virajsabhaya" class="home__social-icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 256 256">
-                                    <path fill="currentColor"
-                                        d="m210.78 39.25l-130.25-23A16 16 0 0 0 62 29.23l-29.75 169a16 16 0 0 0 13 18.53l130.25 23a16 16 0 0 0 18.54-13l29.75-169a16 16 0 0 0-13.01-18.51M178.26 224L48 201L77.75 32L208 55ZM89.34 58.42a8 8 0 0 1 9.27-6.48l83 14.65a8 8 0 0 1-1.39 15.88a8.36 8.36 0 0 1-1.4-.12l-83-14.66a8 8 0 0 1-6.48-9.27M83.8 89.94a8 8 0 0 1 9.27-6.49l83 14.66a8 8 0 0 1-1.4 15.89a7.55 7.55 0 0 1-1.41-.13l-83-14.65a8 8 0 0 1-6.46-9.28m-5.55 31.51a8 8 0 0 1 9.27-6.45l41.48 7.29a8 8 0 0 1-1.38 15.88a8.27 8.27 0 0 1-1.4-.12l-41.5-7.33a8 8 0 0 1-6.47-9.27" />
-                                </svg>
-                            </a>
-                        </div>
-                        <div class="">
-                            <h1 class="home__title">
-                                <span class="home__greetings">Hello, I'm</span><br>
-                                Viraj <strong>Sabhaya</strong>
-                            </h1>
-                            <h3 class="home__subtitle">
-                                <span class="title-role">Software Engineer</span>
-                                <span class="title-role">Researcher</span>
-                                <span class="title-role">Problem Solver</span>
-                            </h3>
-
-                            <p class="home__description long__text">
-                                Experienced Software Engineer with expertise in healthcare data processing, multi-layer
-                                network analysis, and full-stack development. Skilled in C#, Python, JavaScript, and
-                                cloud technologies with a proven track record of optimizing systems and delivering
-                                high-quality solutions.
-                            </p>
-                            <!-- <p class="home__description">Blogs: <a class="hashnode-link" href="https://read.cv/virajsabhaya/writing">read.cv/virajsabhaya/writing</a></p> -->
-
-                            <img src="assets/img/profile.gif" alt="" class="about__img">
-                        </div>
-                        <!-- HOME DATA -->
-                        <div class="home__data">
-                            <div class="terminal home__description" data-reactid="21">
-                                <div class="terminal-header" data-reactid="22">
-                                    <div class="header-button red" data-reactid="23"></div>
-                                    <div class="header-button yellow" data-reactid="24"></div>
-                                    <div class="header-button green" data-reactid="25"></div>
-                                </div>
-                                <div class="terminal-window" data-reactid="26">
-                                    <div data-reactid="27">
-                                        <div class="statement" data-reactid="28">
-                                            <div class="input-statement" data-reactid="29">Viraj.currentLocation</div>
-                                            <div class="return-statement" data-reactid="30">"Arlington, TX"</div>
-                                        </div>
-                                        <div class="statement" data-reactid="40">
-                                            <div class="input-statement" data-reactid="41">Viraj.education</div>
-                                            <div class="return-statement" data-reactid="42">"B.Sc. Computer Science -
-                                                University of Texas, Arlington"</div>
-                                        </div>
-                                        <div class="statement" data-reactid="43">
-                                            <div class="input-statement" data-reactid="44">Viraj.skills</div>
-                                            <div class="return-statement" data-reactid="45">["C#", "Python",
-                                                "JavaScript", "React", "Angular", ".NET Core", "SQL", "MongoDB", "AWS",
-                                                "Docker", "Kubernetes", "CI/CD"]</div>
-                                        </div>
-                                        <div class="statement" data-reactid="46">
-                                            <div class="input-statement" data-reactid="47">
-                                                <span data-reactid="48">&nbsp;</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div>
-                                <a download="" href="https://drive.google.com/file/d/116_-pHDMpieTiSYbk4oor0QcSYTg7DD6/view?usp=sharing" class="button button--flex">
-                                    View CV <i class='bx bxs-folder-open button__icon'></i>
-                                </a>
-                                <a class="button--flex home__view-portoflio" href="projects.html">View My Projects</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="home__scroll">
-                        <a href="#qualification" class="home__scroll-button button--flex">
-                            <i class="uil uil-mouse-alt home__scroll-mouse"></i>
-                            <span class="home__scroll-name">Scroll down</span>
-                            <i class="uil uil-arrow-down home__scroll-arrow"></i>
-                        </a>
+    <main>
+        <section class="hero" id="home">
+            <div class="container hero__grid">
+                <div class="hero__content">
+                    <h1>Viraj Sabhaya</h1>
+                    <p class="hero__role">Software Engineer</p>
+                    <p class="hero__lede">
+                        Software engineer based in the USA, focused on backend systems, data-heavy applications,
+                        healthcare technology, and AI-assisted product delivery. I build software that turns complex
+                        systems into clear, usable products, work well across teams, and care about turning technical
+                        effort into useful outcomes.
+                    </p>
+                    <ul class="hero__highlights">
+                        <li>Backend systems and APIs</li>
+                        <li>Healthcare and data platforms</li>
+                        <li>AI-assisted engineering workflows</li>
+                    </ul>
+                    <div class="hero__actions">
+                        <a class="button button--primary" href="assets/pdf/VirajSabhaya_Resume.pdf" target="_blank"
+                            rel="noreferrer">View resume</a>
+                        <a class="button button--ghost" href="https://www.linkedin.com/in/vsabhaya23/" target="_blank"
+                            rel="noreferrer">Connect on LinkedIn</a>
                     </div>
                 </div>
-            </section>
-        </section>
 
-        <!--==================== QUALIFICATION ====================-->
-        <section class="qualification section" id="qualification">
-            <h2 class="section__title">Qualification</h2>
-            <span class="section__subtitle">- My personal journey -</span>
+                <div class="hero__image-frame">
+                    <img src="assets/img/profile.gif" alt="Viraj Sabhaya profile animation" class="hero__portrait">
+                </div>
 
-            <div class="qualification__container container">
-                <div class="qualification__sections">
-                    <!--==================== QUALIFICATION CONTENT 1 ====================-->
-                    <div class="qualification__content qualification__active" data-content id="work">
-                        <!--==================== QUALIFICATION 1 ====================-->
-                        <div class="qualification__data">
-                            <div>
-                                <h3 class="qualification__title">
-                                    Software Engineer
-                                    <div class="role-tooltip">
-                                        <h4>Altera Digital Health (May 2024 - Present)</h4>
-                                        <ul>
-                                            <li>Led cross-functional collaboration with Business Analysts and QA teams
-                                                to refine requirements, implement unit testing strategies, and achieve a
-                                                95%+ pass rate.</li>
-                                            <li>Spearheaded end-to-end development of healthcare data (FHIR HL7, ICD,
-                                                Multum) processing workflows using C#, .NET Core, and APIs.</li>
-                                            <li>Developed expertise in creating clear and detailed release notes for
-                                                clients.</li>
-                                            <li>Drove architectural enhancements, optimizing resource utilization and
-                                                reducing server count by 60%.</li>
-                                        </ul>
-                                    </div>
-                                </h3>
-                                <span class="qualification__subtitle">Altera Digital Health</span>
-                                <div class="qualification__calendar">
-                                    <i class="uil uil-calendar-alt"></i>
-                                    May 2024 - Present
-                                </div>
-                            </div>
-
-                            <div>
-                                <span class="qualification__rounder"></span>
-                                <span class="qualification__line"></span>
-                            </div>
-                        </div>
-                        <!--==================== QUALIFICATION 2 ====================-->
-                        <div class="qualification__data">
-                            <div></div>
-
-                            <div>
-                                <span class="qualification__rounder"></span>
-                                <span class="qualification__line"></span>
-                            </div>
-
-                            <div>
-                                <h3 class="qualification__title">
-                                    Software Engineer
-                                    <div class="role-tooltip">
-                                        <h4>IT Lab (Sep. 2022 - May 2024)</h4>
-                                        <ul>
-                                            <li>Achieved 85% accuracy in identifying and classifying communities within
-                                                complex Multi-Layer Networks (MLN) datasets.</li>
-                                            <li>Uncovered underlying patterns within MLN data, improving pattern
-                                                detection efficiency by 75%.</li>
-                                            <li>Developed a visualization module with interactive elements, increasing
-                                                clarity of analyzed MLN graphs by 80%.</li>
-                                        </ul>
-                                    </div>
-                                </h3>
-                                <span class="qualification__subtitle">IT Lab</span>
-                                <div class="qualification__calendar">
-                                    <i class="uil uil-calendar-alt"></i>
-                                    Sep. 2022 - May 2024
-                                </div>
-                            </div>
-                        </div>
-                        <!--==================== QUALIFICATION 3 ====================-->
-                        <div class="qualification__data">
-                            <div>
-                                <h3 class="qualification__title">Software Engineer, Intern
-                                    <div class="role-tooltip">
-                                        <h4>Securonix (Jun. 2022 - Aug. 2022)</h4>
-                                        <ul>
-                                            <li>Contributed to NextGen SIEM Technology by developing automated tests
-                                                using Cypress for the SNYPR software.</li>
-                                            <li>Implemented big data technologies like Apache Kafka and Apache Spark for
-                                                the Datasource project.</li>
-                                            <li>Led the development of an automation tool for the QA team, resulting in
-                                                an 80% reduction of operational load.</li>
-                                        </ul>
-                                    </div>
-                                </h3>
-                                <span class="qualification__subtitle">Securonix - Addison, TX</span>
-                                <div class="qualification__calendar">
-                                    <i class="uil uil-calendar-alt"></i>
-                                    Jun. 2022 - Aug. 2022
-                                </div>
-                            </div>
-
-                            <div>
-                                <span class="qualification__rounder"></span>
-                                <span class="qualification__line"></span>
-                            </div>
-                        </div>
-                        <!--==================== QUALIFICATION 4 ====================-->
-                        <div class="qualification__data">
-                            <div></div>
-
-                            <div>
-                                <span class="qualification__rounder"></span>
-                                <span class="qualification__line"></span>
-                            </div>
-
-                            <div>
-                                <h3 class="qualification__title">
-                                    Research Assistant
-                                    <div class="role-tooltip">
-                                        <h4>University of Texas - Arlington (Apr. 2022 - Jun. 2022)</h4>
-                                        <ul>
-                                            <li>Improved data understanding of the overall results for MLN analyzed
-                                                results using community network visualizations.</li>
-                                            <li>Developed visualization techniques to enhance interpretation of complex
-                                                network data.</li>
-                                            <li>Collaborated with faculty and other researchers on multi-layer network
-                                                analysis projects.</li>
-                                        </ul>
-                                    </div>
-                                </h3>
-                                <span class="qualification__subtitle">UT Arlington - Computer Science Dept.</span>
-                                <div class="qualification__calendar">
-                                    <i class="uil uil-calendar-alt"></i>
-                                    Apr. 2022 - Jun. 2022
-                                </div>
-                            </div>
-                        </div>
-
-                        <!--==================== QUALIFICATION 5 ====================-->
-                        <div class="qualification__data">
-                            <div>
-                                <h3 class="qualification__title">
-                                    Student Lab Assistant
-                                    <div class="role-tooltip">
-                                        <h4>Arlington - Office of Information Technology (Feb. 2021 - April 2022)</h4>
-                                        <ul>
-                                            <li>Maintained critical IT infrastructure, including computers, kiosks, and
-                                                printers across 5+ computer labs.</li>
-                                            <li>Played a key role in ensuring seamless operational support for over
-                                                1,000 students and faculty.</li>
-                                            <li>Provided technical assistance and troubleshooting for campus technology
-                                                resources.</li>
-                                        </ul>
-                                    </div>
-                                </h3>
-                                <span class="qualification__subtitle">Arlington - Office of Information
-                                    Technology</span>
-                                <div class="qualification__calendar">
-                                    <i class="uil uil-calendar-alt"></i>
-                                    Feb. 2021 - April 2022
-                                </div>
-                            </div>
-
-                            <div>
-                                <span class="qualification__rounder"></span>
-                                <!-- <span class="qualification__line"></span> -->
-                            </div>
+                <aside class="hero__panel" aria-label="Quick profile">
+                    <div class="hero__panel-block">
+                        <span class="panel__label">Currently</span>
+                        <p>Software Engineer at Altera Digital Health, building API and database solutions in health IT.</p>
+                    </div>
+                    <div class="hero__panel-block">
+                        <span class="panel__label">Focus</span>
+                        <p>Backend systems, SQL-heavy applications, AI workflows, developer tooling, and data products.</p>
+                    </div>
+                    <div class="hero__panel-block">
+                        <span class="panel__label">Find me online</span>
+                        <div class="link-list">
+                            <a href="https://www.linkedin.com/in/vsabhaya23/" target="_blank" rel="noreferrer">LinkedIn</a>
+                            <a href="https://github.com/virajsabhaya23" target="_blank" rel="noreferrer">GitHub</a>
+                            <a href="https://substack.com/@virajs3" target="_blank" rel="noreferrer">Substack</a>
                         </div>
                     </div>
+                </aside>
+            </div>
+        </section>
+
+        <section class="section" id="story">
+            <div class="container section__grid">
+                <div>
+                    <p class="eyebrow">My story</p>
+                    <h2>I like hard technical problems, but I care most about whether the work helps people.</h2>
+                </div>
+                <div class="story-copy">
+                    <p>
+                        In healthcare, that has meant improving Proxy APIs, SQL Server workflows, infrastructure usage,
+                        and delivery quality for systems that teams depend on every day. In research, it meant turning
+                        messy multilayer network data into dashboards people could actually explore and understand.
+                    </p>
+                    <p>
+                        I work well where engineering needs both precision and range: writing code, refining data
+                        flows, documenting decisions, partnering with QA and analysts, and using AI tools in a way that
+                        speeds up delivery without lowering quality.
+                    </p>
                 </div>
             </div>
         </section>
 
-        <!--==================== PORTFOLIO SECTION ====================-->
-        <section class="portfolio section" id="portfolio">
-            <h2 class="section__title">Portfolio</h2>
-            <span class="section__subtitle">- Featured Projects -</span>
-
-            <div class="portfolio__container container swiper-container">
-                <div class="swiper-wrapper">
-                    <!--==================== PORTFOLIO 1 ====================-->
-                    <div class="portfolio__content grid swiper-slide">
-                        <img src="assets/img/portfolio5.png" alt="" class="portfolio__img">
-
-                        <div class="portfolio__data">
-                            <h3 class="portfolio__title">Load and Ask</h3>
-                            <h5 style="color:white;" class="portfolio__subtitle">Won 1st prize at HackUTA 2023: Best use
-                                of <a style="color:var(--first-color);" href="https://streamlit.io/">Streamlit</a></h5>
-                            <p class="portfolio__description">A Streamlit web app that employs OpenAI's advanced API
-                                technology to facilitate fast and accurate searching of PDF/CSV files by allowing users
-                                to upload files, input OpenAI API keys, and ask relevant questions.</p>
-                            <a href="https://github.com/virajsabhaya23/hackUTA_2023"
-                                class="button button--flex button--small portfolio__button">
-                                Demo
-                                <i class="uil uil-arrow-right button__icon"></i>
-                            </a>
-                        </div>
-                    </div>
-
-                    <!--==================== PORTFOLIO 2 ====================-->
-                    <div class="portfolio__content grid swiper-slide">
-                        <img src="assets/img/portfolio1.gif" alt="" class="portfolio__img">
-
-                        <div class="portfolio__data">
-                            <a
-                                href="https://uta.engineering/innovationday/project-2023.php?p=75&h=b30ef4fbe2f331feb81b2cc5ec5f6c3f">
-                                <h3 class="portfolio__title__link">MLN dashboard - Visualization module</h3>
-                            </a>
-                            <p class="portfolio__description">The <i>Multi-Layer Network dashboard</i> offers users
-                                comprehensive visualization of network graphs and community detection with interactive
-                                features for gaining deeper insights.</p>
-                            <a href="https://itlab.uta.edu/mlndash-live/"
-                                class="button button--flex button--small portfolio__button">
-                                Demo
-                                <i class="uil uil-arrow-right button__icon"></i>
-                            </a>
-                            <a href="https://uta.engineering/innovationday/posters/2023/75.pdf"
-                                class="button button--flex button--small portfolio__button">
-                                Poster
-                                <i class="uil uil-arrow-right button__icon"></i>
-                            </a>
-                        </div>
-                    </div>
-
-                    <!--==================== PORTFOLIO 3 ====================-->
-                    <div class="portfolio__content grid swiper-slide">
-                        <img src="assets/img/portfolio4.png" alt="" class="portfolio__img">
-
-                        <div class="portfolio__data">
-                            <h3 class="portfolio__title">Auto YT (YouTube transcript analyzer)</h3>
-                            <p class="portfolio__description">Auto_YT is an Artificial Intelligence tool that utilizes
-                                the transcript generated from a YouTube video URL to provide responses to the user's
-                                inquiries.</p>
-                            <a href="https://github.com/virajsabhaya23/auto_YT"
-                                class="button button--flex button--small portfolio__button">
-                                Demo
-                                <i class="uil uil-arrow-right button__icon"></i>
-                            </a>
-                        </div>
-                    </div>
-
-                    <!--==================== PORTFOLIO 4 ====================-->
-                    <div class="portfolio__content grid swiper-slide">
-                        <img src="assets/img/portfolio3.gif" alt="" class="portfolio__img">
-
-                        <div class="portfolio__data">
-                            <h3 class="portfolio__title">Operating System Modules</h3>
-                            <p class="portfolio__description">This section contains detailed work on several essential
-                                Operating System Modules, These crucial components for modern operating systems are:
-                                <a href="https://github.com/virajsabhaya23/OperatingSystem/tree/main/mshShell"
-                                    class="portoflio__os__link">mshShell</a>,
-                                <a href="https://github.com/virajsabhaya23/OperatingSystem/tree/main/fileSystem"
-                                    class="portoflio__os__link">File System</a>,
-                                <a href="https://github.com/virajsabhaya23/Fractal" class="portoflio__os__link">Fractal
-                                    (parallel image processing)</a>,
-                                and
-                                <a href="https://github.com/virajsabhaya23/OperatingSystem/tree/main/arenaAllocator"
-                                    class="portoflio__os__link">Arena Allocator</a>
-                            </p>
-                            <a href="https://github.com/virajsabhaya23/OperatingSystem"
-                                class="button button--flex button--small portfolio__button">
-                                Demo
-                                <i class="uil uil-arrow-right button__icon"></i>
-                            </a>
-                        </div>
-                    </div>
-
-                    <!--==================== PORTFOLIO 5 ====================-->
-                    <div class="portfolio__content grid swiper-slide">
-                        <img src="assets/img/portfolio2.png" alt="" class="portfolio__img">
-
-                        <div class="portfolio__data">
-                            <h3 class="portfolio__title">GPTlanguageLion</h3>
-                            <p class="portfolio__description">
-                                An AI-powered language detection and translation tool that utilizes OpenAI API key
-                                provided by the user to deliver accurate translations. This innovative tool is capable
-                                of detecting languages on its own and offering translations in real-time, making it an
-                                indispensable asset for multilingual communication.
-                            </p>
-                            <a href="https://github.com/virajsabhaya23/GPTlanguageLion"
-                                class="button button--flex button--small portfolio__button">
-                                Demo
-                                <i class="uil uil-arrow-right button__icon"></i>
-                            </a>
-                        </div>
-                    </div>
+        <section class="section section--muted" aria-labelledby="impact-title">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">What I have done</p>
+                    <h2 id="impact-title">A few outcomes that show how I work.</h2>
                 </div>
-
-                <!-- Add Arrows -->
-                <div class="swiper-button-next">
-                    <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                <div class="metrics">
+                    <article class="metric-card">
+                        <strong>50%</strong>
+                        <p>Reduced infrastructure footprint by optimizing load balancers and IIS pools from 14 servers to 7.</p>
+                    </article>
+                    <article class="metric-card">
+                        <strong>75%</strong>
+                        <p>Improved pattern detection efficiency by enhancing multilayer network analysis algorithms.</p>
+                    </article>
+                    <article class="metric-card">
+                        <strong>77%</strong>
+                        <p>Improved test outcomes through tighter collaboration on requirements, validation, and delivery quality.</p>
+                    </article>
                 </div>
-                <div class="swiper-button-prev">
-                    <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
-                </div>
-
-                <!-- Add pagination -->
-                <div class="swiper-pagination"></div>
             </div>
         </section>
 
-        <!--==================== CONTACT ME ====================-->
-        <section class="contact section" id="contact">
-            <h2 class="section__title">Contact Me</h2>
-            <span class="section__subtitle">- Get in touch -</span>
+        <section class="section" id="experience">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">Experience</p>
+                    <h2>Teams and roles that shaped my approach.</h2>
+                </div>
 
-            <div class="project__bg container">
-                <div class="project__container container grid">
-                    <div class="project__data">
-                        <h2 class="project__title">Let's work together</h2>
-                        <p class="project__description">I am always interested in collaborating on exciting new
-                            projects. If you would like to discuss potential opportunities, please feel free to reach
-                            out to me at <a class="project__email__link"
-                                href="mailto:virajvipinbhai.sabhaya@mavs.uta.edu">virajvipinbhai.sabhaya@mavs.uta.edu</a>.
-                            My current areas of focus include AI, web application development, big data visualization,
-                            and multi-layer network analysis.<br><i>"Let's work together to turn vision into
-                                reality".</i>
+                <div class="timeline">
+                    <article class="timeline-item">
+                        <div class="timeline-item__meta">
+                            <span>05/2024 - Current</span>
+                            <span>Arlington, TX</span>
+                        </div>
+                        <div class="timeline-item__body">
+                            <h3>Software Engineer at Altera Digital Health</h3>
+                            <p>
+                                I build and maintain healthcare-facing systems with SQL Server, Python, ASP.NET Web
+                                Core API, and Postman-centered workflows. The work includes database uplift projects,
+                                API development, technical documentation, Azure DevOps execution, and AI-assisted
+                                workflow improvements for engineering tasks and query optimization.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="timeline-item">
+                        <div class="timeline-item__meta">
+                            <span>09/2022 - 05/2024</span>
+                            <span>UT Arlington</span>
+                        </div>
+                        <div class="timeline-item__body">
+                            <h3>Software Developer at IT Lab</h3>
+                            <p>
+                                Built the MLN Dashboard for analyzing airline, LinkedIn, and IMDb-style graph data.
+                                I improved Louvain and Infomap workflows and developed visualization features with
+                                Pandas, NetworkX, and Matplotlib to make complex network behavior easier to inspect.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="timeline-item">
+                        <div class="timeline-item__meta">
+                            <span>06/2022 - 08/2022</span>
+                            <span>Addison, TX</span>
+                        </div>
+                        <div class="timeline-item__body">
+                            <h3>Software Engineer Intern at Securonix</h3>
+                            <p>
+                                Automated Cypress testing for the SNYPR SIEM platform, contributed to Kafka and Spark
+                                data initiatives, and shipped QA tooling that reduced manual work and supported faster,
+                                more dependable sprint delivery.
+                            </p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section--muted" id="projects">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">Selected work</p>
+                    <h2>A concise view of the projects that best represent my work.</h2>
+                </div>
+
+                <div class="project-grid">
+                    <article class="project-card">
+                        <span class="project-card__tag">Hackathon winner</span>
+                        <h3>Load-N-Ask</h3>
+                        <p>
+                            AI document search with Streamlit, LangChain, and FAISS for querying uploaded PDFs and CSVs.
                         </p>
-                    </div>
+                        <a href="https://github.com/virajsabhaya23/hackUTA_2023" target="_blank" rel="noreferrer">View project</a>
+                    </article>
 
-                    <img src="assets/img/giphy.gif" alt="" class="project__img">
+                    <article class="project-card">
+                        <span class="project-card__tag">Research platform</span>
+                        <h3>MLN Dashboard</h3>
+                        <p>
+                            Visualization and analysis tooling for multilayer networks with interactive graph exploration.
+                        </p>
+                        <a href="https://itlab.uta.edu/mlndash-live/" target="_blank" rel="noreferrer">View demo</a>
+                    </article>
+
+                    <article class="project-summary">
+                        <p class="project-summary__label">Also built</p>
+                        <ul class="project-summary__list">
+                            <li>Equipment Reliability Strategies Dashboard for industrial maintenance workflows.</li>
+                            <li>Healthcare API and SQL delivery work in production environments.</li>
+                            <li>Testing and automation tooling for security and incident-response workflows.</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="testimonials">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">What people in my field have to say about me</p>
+                    <h2>Recommendations from engineers and technical leaders I have worked with.</h2>
+                </div>
+
+                <div class="testimonial-grid">
+                    <article class="testimonial-card">
+                        <p class="testimonial-card__quote">“I have had the opportunity to work alongside Viraj, and without a doubt, he is one of the most reliable and proactive engineers I have encountered. He takes ownership of his work, is always looking for ways to improve reliability, and shows a strong desire to be a team player, with a good degree of technical skill and ambition. You can count on Viraj when you need him.”</p>
+                        <p class="testimonial-card__author">Irfan Tarlekar</p>
+                        <p class="testimonial-card__role">Sr. Security Engineer</p>
+                    </article>
+
+                    <article class="testimonial-card">
+                        <p class="testimonial-card__quote">“Viraj is the kind of professional every team hopes to have: reliable, thoughtful, and committed to doing things the right way. He communicates clearly, follows through on commitments, and displays a strong sense of ownership from start to finish.”</p>
+                        <p class="testimonial-card__author">Portia Jones-Harper</p>
+                        <p class="testimonial-card__role">Senior Technical Consultant at Allscripts</p>
+                    </article>
+
+                    <article class="testimonial-card">
+                        <p class="testimonial-card__quote">“He’s a passionate software developer who tackles every challenge with curiosity and a strong desire to grow. Whether he’s diving into new areas of our product or solving complex problems, Viraj brings energy, focus, and a can-do attitude to everything he does. He’s also a true team player.”</p>
+                        <p class="testimonial-card__author">Christopher Clayton</p>
+                        <p class="testimonial-card__role">Software Development Manager at Altera Digital Health</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="education">
+            <div class="container split-section">
+                <div class="split-section__intro">
+                    <p class="eyebrow">Education</p>
+                    <h2>My college years built the foundation, discipline, and momentum behind how I work now.</h2>
+                </div>
+                <div class="education-layout">
+                    <article class="credential-card">
+                        <p class="card-kicker">Degree</p>
+                        <h3>University of Texas at Arlington</h3>
+                        <p>Bachelor of Science in Computer Science.</p>
+                        <ul class="credential-list">
+                            <li>Built a strong base in algorithms, operating systems, databases, software testing, AI, machine learning, and networks.</li>
+                            <li>Used coursework and projects to move from classroom coding into systems thinking, product delivery, and collaborative engineering.</li>
+                        </ul>
+                    </article>
+                    <article class="credential-card">
+                        <p class="card-kicker">On-campus jobs</p>
+                        <h3>How I learned to operate under pressure</h3>
+                        <p>Student Lab Assistant, then Research Assistant and IT Lab Developer.</p>
+                        <ul class="credential-list">
+                            <li>Learned to troubleshoot real systems, support users, and communicate clearly when things were breaking.</li>
+                            <li>Advanced from technical support into research and software work where I owned meaningful features and data stories.</li>
+                        </ul>
+                    </article>
+                    <article class="credential-card">
+                        <p class="card-kicker">College community</p>
+                        <h3>Peers who kept me building</h3>
+                        <ul class="credential-list">
+                            <li>Mobi: software development club where I contributed as a junior developer.</li>
+                            <li>ACM at UTA: stayed connected to the broader CS community on campus.</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section--muted" id="skills">
+            <div class="container split-section">
+                <div class="split-section__intro">
+                    <p class="eyebrow">Core stack</p>
+                    <h2>The tools I rely on most, grouped by how I actually build and ship work.</h2>
+                </div>
+                <div class="skills-grid">
+                    <article class="credential-card">
+                        <p class="card-kicker">Build</p>
+                        <h3>Languages</h3>
+                        <div class="tag-list">
+                            <span>Python</span>
+                            <span>JavaScript</span>
+                            <span>TypeScript</span>
+                            <span>C#</span>
+                            <span>Java</span>
+                            <span>SQL</span>
+                            <span>Bash</span>
+                        </div>
+                    </article>
+                    <article class="credential-card">
+                        <p class="card-kicker">Ship</p>
+                        <h3>Frameworks and APIs</h3>
+                        <div class="tag-list">
+                            <span>ASP.NET</span>
+                            <span>.NET Core</span>
+                            <span>FastAPI</span>
+                            <span>Flask</span>
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>REST APIs</span>
+                        </div>
+                    </article>
+                    <article class="credential-card">
+                        <p class="card-kicker">Operate</p>
+                        <h3>Platforms and delivery</h3>
+                        <div class="tag-list">
+                            <span>SQL Server</span>
+                            <span>PostgreSQL</span>
+                            <span>MongoDB</span>
+                            <span>Docker</span>
+                            <span>Kubernetes</span>
+                            <span>AWS</span>
+                            <span>Azure DevOps</span>
+                            <span>CI/CD</span>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="recognition">
+            <div class="container split-section">
+                <div class="split-section__intro">
+                    <p class="eyebrow">Recognition</p>
+                    <h2>I am proud of the milestones that came from strong work, strong teams, and steady follow-through.</h2>
+                </div>
+                <div class="recognition-list">
+                    <article class="recognition-item">
+                        <time datetime="2024-02">February 2024</time>
+                        <div>
+                            <p class="card-kicker">Times Square, NYC</p>
+                            <h3>LinkLeap: URL Shortener</h3>
+                            <p>Won 1st prize for the development of LinkLeap, a URL shortener, among more than 300 participants. The project was featured in Times Square in New York City.</p>
+                        </div>
+                    </article>
+                    <article class="recognition-item">
+                        <time datetime="2023-10">October 2023</time>
+                        <div>
+                            <p class="card-kicker">Major League Hacking</p>
+                            <h3>HackUTA: 1st Place</h3>
+                            <p>Secured 1st place at HackUTA with recognition from Major League Hacking for building Load-N-Ask, an AI document-search application.</p>
+                        </div>
+                    </article>
+                    <article class="recognition-item">
+                        <time datetime="2024">2023 and 2024</time>
+                        <div>
+                            <p class="card-kicker">Academic excellence</p>
+                            <h3>Nokia Outstanding Professional CS Student</h3>
+                            <p>Received the academic excellence award from the University of Texas at Arlington Computer Science department in both 2023 and 2024.</p>
+                        </div>
+                    </article>
+                    <article class="recognition-item">
+                        <time datetime="2023-07">July 2023</time>
+                        <div>
+                            <p class="card-kicker">IEEE BigDataService</p>
+                            <h3>MLN-Visualizer</h3>
+                            <p>Co-authored “MLN-Visualizer: Interactive Visualization of Graphs and Multilayer Network Analysis Results,” presented through IEEE BigDataService.</p>
+                        </div>
+                    </article>
+                    <article class="recognition-item">
+                        <time datetime="2025-09">September 2025</time>
+                        <div>
+                            <p class="card-kicker">VLDB Conference</p>
+                            <h3>Complex Data Analysis using Multilayer Networks</h3>
+                            <p>Contributed to “Complex Data Analysis using Multilayer Networks,” extending my research work in graph analysis, visualization, and multilayer network systems.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section--accent" id="contact">
+            <div class="container contact-card">
+                <div>
+                    <p class="eyebrow">Contact</p>
+                    <h2>I am open to software engineering roles, startup opportunities, and thoughtful project collaborations.</h2>
+                </div>
+                <div class="contact-card__content">
+                    <p>
+                        If you are hiring, building something early, or need an engineer who can move between product,
+                        backend, data, and AI-assisted workflows, reach out. I am especially interested in teams that
+                        value ownership, strong communication, and technically honest execution.
+                    </p>
+                    <div class="contact-actions">
+                        <a class="button button--primary" href="https://www.linkedin.com/in/vsabhaya23/" target="_blank"
+                            rel="noreferrer">Connect on LinkedIn</a>
+                    </div>
                 </div>
             </div>
         </section>
     </main>
 
-    <!--==================== FOOTER ====================-->
-    <footer class="footer">
-        <div class="footer__bg">
-            <div class="footer__container container grid">
-                <div>
-                    <h1 class="footer__title"><a href="#" class="footer__link">>Viraj S.</a></h1>
-                </div>
-
-                <ul class="footer__links">
-                    <li>
-                        <a href="#" class="footer__link">Aboutme</a>
-                    </li>
-                    <li>
-                        <a href="projects.html" class="footer__link">Projects</a>
-                    </li>
-                    <li>
-                        <a href="#qualification" class="footer__link">Qualification</a>
-                    </li>
-                </ul>
-
-                <div class="footer__socials">
-                    <a href="https://github.com/virajsabhaya23" target="_blank" class="footer__social">
-                        <i class="uil uil-github"></i>
-                    </a>
-                    <a href="https://www.instagram.com/vi725_s/" target="_blank" class="footer__social">
-                        <i class="uil uil-instagram"></i>
-                    </a>
-                    <a href="https://twitter.com/sabhaya_viraj" target="_blank" class="footer__social">
-                        <i class="uil uil-twitter"></i>
-                    </a>
-                </div>
-            </div>
-
-            <p class="footer__copy">Made by <strong>Viraj Sabhaya</strong> &#169; 2025</p>
+    <footer class="site-footer">
+        <div class="container site-footer__inner">
+            <p>Viraj Sabhaya</p>
+            <p>Software engineer focused on dependable systems, applied AI, and useful products.</p>
         </div>
     </footer>
 
-    <!--==================== SCROLL TOP ====================-->
-    <a href="#" class="scrollup" id="scroll-up">
-        <i class="uil uil-arrow-up scrollup__icon"></i>
-    </a>
-
-    <!--==================== SWIPER JS ====================-->
-    <script src="assets/js/swiper-bundle.min.js"></script>
-
-    <!--==================== MAIN JS ====================-->
     <script src="assets/js/main.js"></script>
-
-    <!-- importing typer js -->
-    <script src="assets/js/typer.js"></script>
-    <!-- importing particles js -->
-    <script src="assets/js/particles.js"></script>
-    <!-- importing app js -->
-    <script src="assets/js/app.js"></script>
-
 </body>
 
 </html>
