@@ -26,6 +26,7 @@
             <nav class="site-nav" aria-label="Primary navigation">
                 <a href="#projects">Work</a>
                 <a href="#experience">Experience</a>
+                <a href="#ai">AI</a>
                 <a href="#testimonials">Recommendations</a>
                 <a href="#contact">Contact</a>
             </nav>
@@ -134,8 +135,11 @@
                                 <li>Worked with QA on legacy/new service comparisons, clinical content defects, and
                                     deployment validation. Documented architecture and installation workflows, and
                                     helped teammates navigate the terminology domain.</li>
-                                <li>Built a guarded, read-only LLM investigation workflow for clinical terminology
-                                    data-quality tickets, integrating SQL Server and enterprise ticket and backlog tools.</li>
+                                <li>Built a Copilot-powered VS Code prototype for terminology data-quality
+                                    investigations, combining read-only SQL evidence, documentation retrieval,
+                                    and response drafts for a human reviewer.</li>
+                                <li>Authored repository context and Copilot instructions for bug-fix regression
+                                    coverage and validation beyond unit tests.</li>
                             </ul>
                         </div>
                     </article>
@@ -279,6 +283,81 @@
                         <a href="https://github.com/virajsabhaya23/hackUTA_2023" target="_blank" rel="noreferrer">View project</a>
                     </article>
                 </div>
+            </div>
+        </section>
+
+        <section class="section" id="ai" aria-labelledby="ai-title">
+            <div class="container split-section">
+                <div class="split-section__intro">
+                    <p class="eyebrow">Applied AI</p>
+                    <h2 id="ai-title">AI-assisted engineering, grounded in evidence.</h2>
+                    <p>
+                        I use GitHub Copilot Chat to investigate unfamiliar systems, develop targeted changes,
+                        and build repeatable engineering workflows. My application work includes retrieval-augmented
+                        generation and tool-connected data-quality investigation.
+                    </p>
+                </div>
+                <dl class="work-feature__details">
+                    <div>
+                        <dt>Repository context and workflow design</dt>
+                        <dd>Created project reference documents and Copilot guidance so agents can work with existing
+                            architecture, constraints, and conventions. Added bug-fix validation guidance that calls
+                            for regression coverage and checks beyond unit tests.</dd>
+                    </div>
+                    <div>
+                        <dt>AI-assisted debugging and delivery</dt>
+                        <dd>Use Copilot to trace code paths, investigate SQL and service behavior, draft fixes,
+                            and develop tests. I check the resulting diffs and behavior against logs, requirements,
+                            and legacy-system comparisons before accepting a change.</dd>
+                    </div>
+                    <div>
+                        <dt>Tool-connected investigation</dt>
+                        <dd>Built a Copilot-backed agent loop with structured tool calls, read-only SQL evidence,
+                            and local documentation search. Extended the assistant with configurable product
+                            context and editable project knowledge.</dd>
+                    </div>
+                    <div>
+                        <dt>Retrieval-augmented generation</dt>
+                        <dd>Co-built Load-N-Ask with Streamlit, LangChain, FAISS, and the OpenAI API, using document
+                            chunking and vector retrieval to ground answers in supplied material.</dd>
+                    </div>
+                    <div>
+                        <dt>Verification and human control</dt>
+                        <dd>Model output is a starting point, not proof. My workflow uses scoped changes, explicit
+                            approval for remote writes, and regression evidence. EffectFence extends that interest
+                            into bounded checks of crash, retry, and MCP tool side effects.</dd>
+                    </div>
+                </dl>
+
+                <article class="work-feature ai-project" aria-labelledby="ai-assistant-title">
+                    <div class="work-feature__intro">
+                        <span class="project-card__tag">AI tooling | Prototype</span>
+                        <h3 id="ai-assistant-title">Data-quality investigation assistant</h3>
+                        <p>
+                            Built and packaged a VS Code extension with a TypeScript agent layer and Python
+                            backend. It brings case review, evidence gathering, and response drafting into
+                            one developer workflow.
+                        </p>
+                    </div>
+                    <dl class="work-feature__details">
+                        <div>
+                            <dt>Grounded investigation</dt>
+                            <dd>Read-only SQL tools and a local SQLite FTS5 index of database schemas and
+                                documentation provide evidence for Copilot-assisted case analysis.</dd>
+                        </div>
+                        <div>
+                            <dt>Configurable project knowledge</dt>
+                            <dd>Added guided setup for queues, permitted databases, and product context, plus
+                                reviewer-supplied files and an editable knowledge profile.</dd>
+                        </div>
+                        <div>
+                            <dt>Explicit review boundaries</dt>
+                            <dd>Findings and response drafts require human review. Posting requires approval;
+                                credentials use VS Code SecretStorage, and the configurable version uses
+                                Windows authentication for SQL access.</dd>
+                        </div>
+                    </dl>
+                </article>
             </div>
         </section>
 
@@ -485,6 +564,18 @@
                             <span>GitHub Actions</span>
                             <span>Docker</span>
                             <span>Fault injection</span>
+                        </div>
+                    </article>
+                    <article class="credential-card">
+                        <p class="card-kicker">Augment</p>
+                        <h3>Applied AI</h3>
+                        <div class="tag-list">
+                            <span>GitHub Copilot</span>
+                            <span>LLM tool calling</span>
+                            <span>RAG</span>
+                            <span>LangChain</span>
+                            <span>FAISS</span>
+                            <span>SQLite FTS5</span>
                         </div>
                     </article>
                 </div>
