@@ -14,9 +14,9 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon_package_v0.16/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon_package_v0.16/favicon-16x16.png">
     <link rel="manifest" href="/assets/img/favicon_package_v0.16/site.webmanifest">
-    <link rel="mask-icon" href="/assets/img/favicon_package_v0.16/safari-pinned-tab.svg" color="#2f6c5f">
-    <meta name="msapplication-TileColor" content="#0f1717">
-    <meta name="theme-color" content="#0f1717">
+    <link rel="mask-icon" href="/assets/img/favicon_package_v0.16/safari-pinned-tab.svg" color="#c3e3f7">
+    <meta name="msapplication-TileColor" content="#17181a">
+    <meta name="theme-color" content="#17181a">
 </head>
 
 <body>
@@ -24,13 +24,9 @@
         <div class="container site-header__inner">
             <a class="brand" href="#home">Viraj Sabhaya</a>
             <nav class="site-nav" aria-label="Primary navigation">
-                <a href="#story">Story</a>
+                <a href="#projects">Work</a>
                 <a href="#experience">Experience</a>
-                <a href="#projects">Projects</a>
-                <a href="#education">Education</a>
-                <a href="#skills">Skills</a>
-                <a href="#recognition">Recognition</a>
-                <a href="#testimonials">Testimonials</a>
+                <a href="#testimonials">Recommendations</a>
                 <a href="#contact">Contact</a>
             </nav>
         </div>
@@ -43,15 +39,11 @@
                     <h1>Viraj Sabhaya</h1>
                     <p class="hero__role">Software Engineer | Backend &amp; Infrastructure</p>
                     <p class="hero__lede">
-                        I build backend services, deployment automation, and reliability tools. My work spans healthcare
-                        APIs, SQL Server performance, on-premises IIS delivery, and open-source testing for distributed
-                        systems. Based in the Dallas-Fort Worth area.
+                        I build backend services and the tools to deploy, troubleshoot, and maintain them.
+                        Healthcare systems at Altera Digital Health. Open-source work in reliability and
+                        software dependency analysis.
                     </p>
-                    <ul class="hero__highlights">
-                        <li>Backend systems and compatibility</li>
-                        <li>CI/CD and deployment automation</li>
-                        <li>Reliability and developer tooling</li>
-                    </ul>
+                    <p class="hero__location">Dallas-Fort Worth, Texas</p>
                     <div class="hero__actions">
                         <a class="button button--primary" href="https://drive.google.com/file/d/116_-pHDMpieTiSYbk4oor0QcSYTg7DD6/view" target="_blank"
                             rel="noreferrer">View resume</a>
@@ -63,33 +55,14 @@
                 <div class="hero__image-frame">
                     <img src="assets/img/profile.gif" alt="Viraj Sabhaya profile animation" class="hero__portrait">
                 </div>
-
-                <aside class="hero__panel" aria-label="Quick profile">
-                    <div class="hero__panel-block">
-                        <span class="panel__label">Currently</span>
-                        <p>Software Engineer at Altera Digital Health, working on healthcare APIs, SQL Server, and delivery automation.</p>
-                    </div>
-                    <div class="hero__panel-block">
-                        <span class="panel__label">Role interests</span>
-                        <p>Backend infrastructure, platform engineering, DevOps, and developer productivity.</p>
-                    </div>
-                    <div class="hero__panel-block">
-                        <span class="panel__label">Find me online</span>
-                        <div class="link-list">
-                            <a href="https://www.linkedin.com/in/vsabhaya23/" target="_blank" rel="noreferrer">LinkedIn</a>
-                            <a href="https://github.com/virajsabhaya23" target="_blank" rel="noreferrer">GitHub</a>
-                            <a href="https://substack.com/@virajs3" target="_blank" rel="noreferrer">Substack</a>
-                        </div>
-                    </div>
-                </aside>
             </div>
         </section>
 
         <section class="section" id="story">
             <div class="container section__grid">
                 <div>
-                    <p class="eyebrow">My story</p>
-                    <h2>Reliable systems need more than working code.</h2>
+                    <p class="eyebrow">About</p>
+                    <h2>Backend systems. Practical delivery.</h2>
                 </div>
                 <div class="story-copy">
                     <p>
@@ -110,8 +83,8 @@
         <section class="section section--muted" aria-labelledby="impact-title">
             <div class="container">
                 <div class="section-heading">
-                    <p class="eyebrow">What I have done</p>
-                    <h2 id="impact-title">A few outcomes that show how I work.</h2>
+                    <p class="eyebrow">In practice</p>
+                    <h2 id="impact-title">Delivery and reliability.</h2>
                 </div>
                 <div class="metrics">
                     <article class="metric-card">
@@ -134,7 +107,7 @@
             <div class="container">
                 <div class="section-heading">
                     <p class="eyebrow">Experience</p>
-                    <h2>Backend, delivery, and data systems.</h2>
+                    <h2>Where I've worked.</h2>
                 </div>
 
                 <div class="timeline">
@@ -150,13 +123,17 @@
                                 PowerShell, and Azure DevOps.
                             </p>
                             <ul class="credential-list">
-                                <li>Built an Azure DevOps pipeline for Web API builds and on-premises IIS deployment,
-                                    including unit tests, versioned artifacts, SQL stored-procedure updates, site backups,
-                                    and health smoke tests.</li>
-                                <li>Modernized legacy SOAP terminology services with REST APIs and a compatibility
-                                    library designed to preserve existing EHR client contracts.</li>
+                                <li>Developed backend features for a team modernization effort spanning REST services,
+                                    SOAP compatibility, and a .NET client package, with existing EHR behavior as a
+                                    migration constraint.</li>
+                                <li>Built Azure DevOps release automation for tested, versioned artifacts, on-premises
+                                    IIS delivery, SQL updates, backups, and health checks; extended standalone IIS
+                                    and database installation tooling.</li>
                                 <li>Traced five-minute SQL queries on multi-million-row tables to stale statistics,
                                     and evaluated two-phase paging, indexing, full-text search, and query-plan alternatives.</li>
+                                <li>Worked with QA on legacy/new service comparisons, clinical content defects, and
+                                    deployment validation. Documented architecture and installation workflows, and
+                                    helped teammates navigate the terminology domain.</li>
                                 <li>Built a guarded, read-only LLM investigation workflow for clinical terminology
                                     data-quality tickets, integrating SQL Server and enterprise ticket and backlog tools.</li>
                             </ul>
@@ -201,8 +178,50 @@
             <div class="container">
                 <div class="section-heading">
                     <p class="eyebrow">Selected work</p>
-                    <h2>Reliability tools and data systems.</h2>
+                    <h2>Systems, tools, and research.</h2>
                 </div>
+
+                <article class="work-feature" aria-labelledby="altera-work-title">
+                    <div class="work-feature__intro">
+                        <span class="project-card__tag">Altera Digital Health | Professional work</span>
+                        <h3 id="altera-work-title">Healthcare terminology platform</h3>
+                        <p>
+                            My contributions to a team modernization effort connect backend feature development,
+                            compatibility fixes, and repeatable delivery. The work supports terminology lookup
+                            and clinical content workflows used by EHR applications.
+                        </p>
+                        <div class="tag-list">
+                            <span>C#/.NET</span>
+                            <span>SQL Server</span>
+                            <span>PowerShell</span>
+                            <span>Azure DevOps</span>
+                            <span>IIS</span>
+                        </div>
+                    </div>
+                    <dl class="work-feature__details">
+                        <div>
+                            <dt>Feature and bug-fix PRs</dt>
+                            <dd>Implemented effective-date filtering, retired-term retrieval, and exact-code/alias
+                                search fixes, with focused regression tests to protect legacy behavior.</dd>
+                        </div>
+                        <div>
+                            <dt>Service compatibility</dt>
+                            <dd>Developed features across REST services and the .NET compatibility package, and
+                                worked on SOAP/API integration so existing clients could retain their contracts.</dd>
+                        </div>
+                        <div>
+                            <dt>Deployment and installer tooling</dt>
+                            <dd>Extended IIS and database installers with authentication options, prerequisite and
+                                HTTPS certificate checks, application-pool configuration, permission handling, and
+                                install/uninstall workflows.</dd>
+                        </div>
+                        <div>
+                            <dt>Verification and handover</dt>
+                            <dd>Compared legacy and new endpoint behavior, investigated defects through request logs
+                                and SQL, and documented architecture and installation procedures for QA and handover.</dd>
+                        </div>
+                    </dl>
+                </article>
 
                 <div class="project-grid">
                     <article class="project-card">
@@ -263,32 +282,134 @@
             </div>
         </section>
 
-        <section class="section" id="testimonials">
+        <section class="section" id="testimonials" aria-labelledby="testimonials-title">
             <div class="container">
-                <div class="section-heading">
-                    <p class="eyebrow">What people in my field have to say about me</p>
-                    <h2>Recommendations from engineers and technical leaders I have worked with.</h2>
+                <div class="testimonial-heading">
+                    <div class="section-heading">
+                        <p class="eyebrow">Recommendations</p>
+                        <h2 id="testimonials-title">From the people I work with.</h2>
+                    </div>
+                    <a class="testimonial-source" href="https://www.linkedin.com/in/vsabhaya23/details/recommendations/"
+                        target="_blank" rel="noreferrer">View on LinkedIn</a>
                 </div>
+            </div>
 
-                <div class="testimonial-grid">
-                    <article class="testimonial-card">
-                        <p class="testimonial-card__quote">“I have had the opportunity to work alongside Viraj, and without a doubt, he is one of the most reliable and proactive engineers I have encountered. He takes ownership of his work, is always looking for ways to improve reliability, and shows a strong desire to be a team player, with a good degree of technical skill and ambition. You can count on Viraj when you need him.”</p>
-                        <p class="testimonial-card__author">Irfan Tarlekar</p>
-                        <p class="testimonial-card__role">Sr. Security Engineer</p>
-                    </article>
+            <div class="testimonial-carousel">
+                <button class="testimonial-icon-button testimonial-arrow testimonial-arrow--previous" type="button"
+                    data-testimonial-direction="-1" aria-controls="testimonial-viewport"
+                    aria-label="Previous recommendation" title="Previous recommendation" hidden>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <path d="m15 18-6-6 6-6" />
+                    </svg>
+                </button>
+                <div class="testimonial-marquee" id="testimonial-viewport" role="region"
+                    aria-label="LinkedIn recommendations" tabindex="0">
+                    <div class="testimonial-track">
+                        <div class="testimonial-group">
+                            <article class="testimonial-card" data-preview="Viraj approached every obstacle with a positive mindset, working tirelessly to find creative solutions and ensuring the success of our project.">
+                                <blockquote class="testimonial-card__quote">
+                                    <p>I had the pleasure of working closely with Viraj on a web project where we developed a Flask-based application utilizing SQLite as the database.</p>
+                                    <p>Throughout the duration of our collaboration, I was consistently impressed by Viraj's exceptional level of patience and diligence. His ability to remain calm and composed, even during challenging moments, was truly commendable. Viraj approached every obstacle with a positive mindset, working tirelessly to find creative solutions and ensuring the success of our project.</p>
+                                    <p>Furthermore, Viraj's proficiency in utilizing Flask and working with SQLite was evident throughout our collaboration. His technical skills and ability to navigate complex challenges allowed us to create a robust web application that met all project requirements. His expertise in these technologies greatly contributed to the efficiency and effectiveness of our development process.</p>
+                                    <p>Aside from his technical abilities, Viraj proved to be an excellent team player. He actively participated in discussions, readily shared his ideas, and maintained open lines of communication with the entire team. His collaborative nature fostered a positive and inclusive work environment, contributing to our overall productivity and project success.</p>
+                                </blockquote>
+                                <p class="testimonial-card__author">Amey Shinde</p>
+                                <p class="testimonial-card__role">Senior Technical Consultant at Blue Yonder</p>
+                                <button class="testimonial-read" type="button" data-read-recommendation aria-haspopup="dialog" hidden>Read recommendation</button>
+                            </article>
 
-                    <article class="testimonial-card">
-                        <p class="testimonial-card__quote">“Viraj is the kind of professional every team hopes to have: reliable, thoughtful, and committed to doing things the right way. He communicates clearly, follows through on commitments, and displays a strong sense of ownership from start to finish.”</p>
-                        <p class="testimonial-card__author">Portia Jones-Harper</p>
-                        <p class="testimonial-card__role">Senior Technical Consultant at Allscripts</p>
-                    </article>
+                            <article class="testimonial-card" data-preview="He is the type of individual who takes ownership of challenges, follows through on commitments, and can be relied upon to see important work through to completion.">
+                                <blockquote class="testimonial-card__quote">
+                                    <p>I have had the pleasure of working with Viraj Sabhaya and have consistently been impressed by his professionalism, technical capability, and commitment to delivering results. He is the type of individual who takes ownership of challenges, follows through on commitments, and can be relied upon to see important work through to completion. Based on my interactions with him, I view him as a highly accomplished engineer who combines strong technical skills with a collaborative mindset and a genuine desire to help those around him succeed.</p>
+                                    <p>What stands out most about Viraj is his initiative and willingness to go beyond what is expected. He approaches problems thoughtfully, looks for opportunities to improve processes and outcomes, and is always willing to step in where help is needed. He works effectively across teams, communicates clearly, and earns the trust and respect of both peers and stakeholders through his consistent delivery and positive attitude.</p>
+                                    <p>Beyond his technical contributions, Viraj demonstrates strong character and professionalism. He is dependable, adaptable, and focused on achieving the best outcome for the organization while supporting those he works with. I have genuinely enjoyed working with him and appreciate the impact he has made through his dedication, work ethic, and collaborative approach.</p>
+                                </blockquote>
+                                <p class="testimonial-card__author">Rich Jones</p>
+                                <p class="testimonial-card__role">Director of Engineering</p>
+                                <button class="testimonial-read" type="button" data-read-recommendation aria-haspopup="dialog" hidden>Read recommendation</button>
+                            </article>
 
-                    <article class="testimonial-card">
-                        <p class="testimonial-card__quote">“He’s a passionate software developer who tackles every challenge with curiosity and a strong desire to grow. Whether he’s diving into new areas of our product or solving complex problems, Viraj brings energy, focus, and a can-do attitude to everything he does. He’s also a true team player.”</p>
-                        <p class="testimonial-card__author">Christopher Clayton</p>
-                        <p class="testimonial-card__role">Software Development Manager at Altera Digital Health</p>
-                    </article>
+                            <article class="testimonial-card">
+                                <blockquote class="testimonial-card__quote">
+                                    <p>Viraj is a standout software engineer whose technical depth and mentorship have a direct impact on team success. When I joined the team, he was instrumental in accelerating my onboarding, taking the time to break down complex domain architecture and ensure a seamless transition. His mastery of ATP and backend systems makes him a go-to technical resource across the board. Beyond his deep technical knowledge, Viraj consistently fosters a collaborative engineering culture he is always ready to step in, unblock teammates, and tackle complex integration challenges with clarity and patience. Any engineering organization would be lucky to have him.</p>
+                                </blockquote>
+                                <p class="testimonial-card__author">Owen Senowitz</p>
+                                <p class="testimonial-card__role">Software Engineer</p>
+                                <button class="testimonial-read" type="button" data-read-recommendation aria-haspopup="dialog" hidden>Read recommendation</button>
+                            </article>
+
+                            <article class="testimonial-card">
+                                <blockquote class="testimonial-card__quote">
+                                    <p>I have had the opportunity to work alongside Viraj, and without a doubt, he is one of the most reliable and proactive engineers I have encountered. He is good at developing strong working relationships with colleagues across teams and ensuring that everyone understands the product’s intent and direction.</p>
+                                    <p>He often jumps in when there are stage or production issues, establishing clear recovery plans, coordinating fixes and documenting everything until a stable state has returned. He takes ownership of his work, is always looking for ways to improve reliability, and shows a strong desire to be a team player, with a good degree of technical skill and ambition. You can count on Viraj when you need him!</p>
+                                </blockquote>
+                                <p class="testimonial-card__author">Irfan Tarlekar</p>
+                                <p class="testimonial-card__role">Sr. Security Engineer</p>
+                                <button class="testimonial-read" type="button" data-read-recommendation aria-haspopup="dialog" hidden>Read recommendation</button>
+                            </article>
+
+                            <article class="testimonial-card">
+                                <blockquote class="testimonial-card__quote">
+                                    <p>Viraj is the kind of professional every team hopes to have: reliable, thoughtful, and committed to doing things the right way. He communicates clearly, follows through on commitments, and displays a strong sense of ownership from start to finish.</p>
+                                    <p>Thank you for your exceptional work under pressure — your contributions make a real difference!</p>
+                                </blockquote>
+                                <p class="testimonial-card__author">Portia Jones-Harper</p>
+                                <p class="testimonial-card__role">Senior Technical Consultant at Allscripts</p>
+                                <button class="testimonial-read" type="button" data-read-recommendation aria-haspopup="dialog" hidden>Read recommendation</button>
+                            </article>
+
+                            <article class="testimonial-card">
+                                <blockquote class="testimonial-card__quote">
+                                    <p>I've had the pleasure of working with Viraj since joining the team and have been consistently impressed by his enthusiasm, dedication, and technical skills. He's a passionate software developer who tackles every challenge with curiosity and a strong desire to grow. Whether he's diving into new areas of our product or solving complex problems, Viraj brings energy, focus, and a can-do attitude to everything he does. He's also a true team player—collaborative, supportive, and always ready to help others succeed.</p>
+                                </blockquote>
+                                <p class="testimonial-card__author">Christopher Clayton</p>
+                                <p class="testimonial-card__role">Software Development Manager at Altera Digital Health</p>
+                                <button class="testimonial-read" type="button" data-read-recommendation aria-haspopup="dialog" hidden>Read recommendation</button>
+                            </article>
+
+                            <article class="testimonial-card">
+                                <blockquote class="testimonial-card__quote">
+                                    <p>I had the opportunity to work alongside Viraj Sabhaya, Associate Software Engineer, during a major incident at our company, and I can confidently say that his support, dedication, and teamwork were outstanding. We both worked through 12-hour weekend shifts, coordinating handovers and ensuring continuous coverage so our clients received seamless updates and timely resolutions.</p>
+                                    <p>Viraj was incredibly reliable during each shift—communicating clearly, handling pressure calmly, and always making sure that the transition between shifts was smooth and well-documented. His attention to detail, combined with a strong sense of responsibility, played a big part in the overall success of our incident response.</p>
+                                    <p>He’s a dependable teammate and a great collaborator. I truly enjoyed working with Viraj and highly recommend him for any role that values strong communication, accountability, and a solid technical mindset.</p>
+                                </blockquote>
+                                <p class="testimonial-card__author">Jay Pathak</p>
+                                <p class="testimonial-card__role">Software Developer at Altera Digital Health</p>
+                                <button class="testimonial-read" type="button" data-read-recommendation aria-haspopup="dialog" hidden>Read recommendation</button>
+                            </article>
+                        </div>
+                    </div>
                 </div>
+                <button class="testimonial-icon-button testimonial-arrow testimonial-arrow--next" type="button"
+                    data-testimonial-direction="1" aria-controls="testimonial-viewport"
+                    aria-label="Next recommendation" title="Next recommendation" hidden>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <path d="m9 18 6-6-6-6" />
+                    </svg>
+                </button>
+            </div>
+
+            <div class="container">
+                <dialog class="recommendation-dialog" aria-labelledby="recommendation-author">
+                    <div class="recommendation-dialog__header">
+                        <div>
+                            <h3 id="recommendation-author"></h3>
+                            <p class="recommendation-dialog__role"></p>
+                        </div>
+                        <button class="testimonial-icon-button recommendation-close" type="button"
+                            aria-label="Close recommendation" title="Close recommendation">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                <path d="M18 6 6 18M6 6l12 12" />
+                            </svg>
+                        </button>
+                    </div>
+                    <blockquote class="recommendation-dialog__quote"></blockquote>
+                    <a href="https://www.linkedin.com/in/vsabhaya23/details/recommendations/" target="_blank"
+                        rel="noreferrer">View on LinkedIn</a>
+                </dialog>
             </div>
         </section>
 
@@ -296,34 +417,26 @@
             <div class="container split-section">
                 <div class="split-section__intro">
                     <p class="eyebrow">Education</p>
-                    <h2>Computer science, research, and teamwork.</h2>
+                    <h2>A foundation in computer science.</h2>
                 </div>
                 <div class="education-layout">
                     <article class="credential-card">
                         <p class="card-kicker">Degree</p>
                         <h3>University of Texas at Arlington</h3>
                         <p>Bachelor of Science in Computer Science, May 2024.</p>
-                        <ul class="credential-list">
-                            <li>Built a strong base in algorithms, operating systems, databases, software testing, AI, machine learning, and networks.</li>
-                            <li>Used coursework and projects to move from classroom coding into systems thinking, product delivery, and collaborative engineering.</li>
-                        </ul>
+                        <p>Algorithms, operating systems, databases, software testing, AI, machine learning, and networks.</p>
                     </article>
                     <article class="credential-card">
-                        <p class="card-kicker">On-campus jobs</p>
-                        <h3>How I learned to operate under pressure</h3>
-                        <p>Student Lab Assistant, then Research Assistant and IT Lab Developer.</p>
-                        <ul class="credential-list">
-                            <li>Learned to troubleshoot real systems, support users, and communicate clearly when things were breaking.</li>
-                            <li>Advanced from technical support into research and software work where I owned meaningful features and data stories.</li>
-                        </ul>
+                        <p class="card-kicker">Campus work</p>
+                        <h3>From lab support to development</h3>
+                        <p>Progressed from Student Lab Assistant to Research Assistant and IT Lab Developer,
+                            supporting users before contributing to research and software delivery.</p>
                     </article>
                     <article class="credential-card">
-                        <p class="card-kicker">College community</p>
-                        <h3>Peers who kept me building</h3>
-                        <ul class="credential-list">
-                            <li>Mobi: software development club where I contributed as a junior developer.</li>
-                            <li>ACM at UTA: stayed connected to the broader CS community on campus.</li>
-                        </ul>
+                        <p class="card-kicker">Community</p>
+                        <h3>Mobi and ACM at UTA</h3>
+                        <p>Contributed as a junior developer with Mobi's software development club and
+                            participated in the campus CS community through ACM.</p>
                     </article>
                 </div>
             </div>
@@ -382,11 +495,11 @@
             <div class="container split-section">
                 <div class="split-section__intro">
                     <p class="eyebrow">Recognition</p>
-                    <h2>Professional recognition and published research.</h2>
+                    <h2>Research and recognition.</h2>
                 </div>
                 <div class="recognition-list">
                     <article class="recognition-item">
-                        <time datetime="2025-12">December 2025</time>
+                        <time datetime="2025-12">Dec 2025</time>
                         <div>
                             <p class="card-kicker">Altera Digital Health</p>
                             <h3>Employee Recognition</h3>
@@ -394,20 +507,12 @@
                         </div>
                     </article>
                     <article class="recognition-item">
-                        <time datetime="2024-02">February 2024</time>
+                        <time datetime="2025-09">Sep 2025</time>
                         <div>
-                            <p class="card-kicker">Times Square, NYC</p>
-                            <h3>LinkLeap: URL Shortener</h3>
-                            <p>Won 1st prize for the development of LinkLeap, a URL shortener, among more than 300 participants. The project was featured in Times Square in New York City.</p>
-                        </div>
-                    </article>
-                    <article class="recognition-item">
-                        <time datetime="2023-10">October 2023</time>
-                        <div>
-                            <p class="card-kicker">HackUTA 2023</p>
-                            <h3>Best Use of Streamlit</h3>
-                            <p>Won the Streamlit category with the Load-N-Ask team for a document question-answering application.</p>
-                            <a href="https://devpost.com/software/load-n-save" target="_blank" rel="noreferrer">View award and team</a>
+                            <p class="card-kicker">VLDB 2025 | Demo paper</p>
+                            <h3>MLN-geeWhiz</h3>
+                            <p>Co-authored "MLN-geeWhiz: A Dashboard for Supporting Complete Life-Cycle of Complex Data Analysis using Multilayer Networks," presented at VLDB 2025.</p>
+                            <a href="https://www.vldb.org/pvldb/vol18/p5323-santra.pdf" target="_blank" rel="noreferrer">Read VLDB demo paper</a>
                         </div>
                     </article>
                     <article class="recognition-item">
@@ -419,21 +524,29 @@
                         </div>
                     </article>
                     <article class="recognition-item">
-                        <time datetime="2023-07">July 2023</time>
+                        <time datetime="2024-02">Feb 2024</time>
+                        <div>
+                            <p class="card-kicker">Times Square, NYC</p>
+                            <h3>LinkLeap: URL Shortener</h3>
+                            <p>Won 1st prize for the development of LinkLeap, a URL shortener, among more than 300 participants. The project was featured in Times Square in New York City.</p>
+                        </div>
+                    </article>
+                    <article class="recognition-item">
+                        <time datetime="2023-10">Oct 2023</time>
+                        <div>
+                            <p class="card-kicker">HackUTA 2023</p>
+                            <h3>Best Use of Streamlit</h3>
+                            <p>Won the Streamlit category with the Load-N-Ask team for a document question-answering application.</p>
+                            <a href="https://devpost.com/software/load-n-save" target="_blank" rel="noreferrer">View award and team</a>
+                        </div>
+                    </article>
+                    <article class="recognition-item">
+                        <time datetime="2023-07">Jul 2023</time>
                         <div>
                             <p class="card-kicker">IEEE BigDataService</p>
                             <h3>MLN-Visualizer</h3>
                             <p>Co-authored “MLN-Visualizer: Interactive Visualization of Graphs and Multilayer Network Analysis Results,” presented through IEEE BigDataService.</p>
                             <a href="https://ieeexplore.ieee.org/document/10233974" target="_blank" rel="noreferrer">View IEEE publication</a>
-                        </div>
-                    </article>
-                    <article class="recognition-item">
-                        <time datetime="2025-09">September 2025</time>
-                        <div>
-                            <p class="card-kicker">VLDB 2025 | Demo paper</p>
-                            <h3>MLN-geeWhiz</h3>
-                            <p>Co-authored "MLN-geeWhiz: A Dashboard for Supporting Complete Life-Cycle of Complex Data Analysis using Multilayer Networks," presented at VLDB 2025.</p>
-                            <a href="https://www.vldb.org/pvldb/vol18/p5323-santra.pdf" target="_blank" rel="noreferrer">Read VLDB demo paper</a>
                         </div>
                     </article>
                 </div>
@@ -444,13 +557,12 @@
             <div class="container contact-card">
                 <div>
                     <p class="eyebrow">Contact</p>
-                    <h2>Backend and infrastructure roles.</h2>
+                    <h2>Let's talk.</h2>
                 </div>
                 <div class="contact-card__content">
                     <p>
-                        I'm interested in backend infrastructure, platform engineering, DevOps, and developer
-                        productivity roles, including teams supporting AI and data workloads. I bring application
-                        engineering, on-premises deployment automation, and a focus on reliability.
+                        I'm interested in backend infrastructure, platform engineering, and developer productivity
+                        roles. Let's talk about what your team is building.
                     </p>
                     <div class="contact-actions">
                         <a class="button button--primary" href="https://www.linkedin.com/in/vsabhaya23/" target="_blank"
@@ -464,7 +576,11 @@
     <footer class="site-footer">
         <div class="container site-footer__inner">
             <p>Viraj Sabhaya</p>
-            <p>Backend services, deployment automation, and reliability.</p>
+            <div class="link-list">
+                <a href="https://github.com/virajsabhaya23" target="_blank" rel="noreferrer">GitHub</a>
+                <a href="https://www.linkedin.com/in/vsabhaya23/" target="_blank" rel="noreferrer">LinkedIn</a>
+                <a href="https://substack.com/@virajs3" target="_blank" rel="noreferrer">Substack</a>
+            </div>
         </div>
     </footer>
 
